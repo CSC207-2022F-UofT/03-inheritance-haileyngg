@@ -80,6 +80,7 @@ public abstract class Bag {
                 newContents[i] = this.contents[i];
             }
             newContents[i] = item;
+            this.contents = newContents;
             this.numberOfContents += 1;
             return true;
 
